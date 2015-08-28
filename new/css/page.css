@@ -69,7 +69,7 @@ body {
     padding:5px 0px;
     position:absolute;
     top:100%;
-    left:0px;
+    left:-25%;
     z-index:-1;
     opacity:0;
     transition:opacity linear 0.15s;
