@@ -9,7 +9,7 @@ body {
  
 /*----- Menu Outline -----*/
 .menu-wrap {
-    width:80%;
+    width:100%;
     box-shadow:0px 10px 20px rgba(0,0,0,0.5);
     background:#3e3436;
 }
