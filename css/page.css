@@ -90,6 +90,7 @@ body {
     background:#3e3436;
 }
 
+/*-----Others-----*/
 .home{
 	height:100%;
 	width:80%;
@@ -127,4 +128,18 @@ body {
 	
 .rcorners2 {
     border-radius: 50px 15px;
+	}
+	
+.span{
+	color:#6633CC;
+
+	}
+	
+.summary{
+	outline:none;
+	}
+	
+.th, .td {
+    padding: 5px;
+    text-align: left;
 	}
