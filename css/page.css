@@ -103,20 +103,13 @@ body {
 	}
 
 .box1{
-	width:50%;
+	width:70%;
 	height:100%;
 	border:1px solid black;
 	}
 	  
 .box2{
-	width:50%;
-	height:100%;
-	border:1px solid black;
-	margin-top:2px;
-	}
-	  
-.box3{
-	width:50%;
+	width:70%;
 	height:100%;
 	border:1px solid black;
 	margin-top:2px;

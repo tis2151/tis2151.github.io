@@ -47,27 +47,34 @@
         <div class="form">
             <form method="post" action="thankyoupage.html">
 			<div class = "box1">
+			<br>
                 <!-- Name -->
-               <p><label for="name" > &nbsp Name:</label>
-                <span style = "margin-left : 30px"><input name="name" type="text" id="name" required placeholder="First and Last Name" autocomplete="off"  /></span></p>
-                <!-- Email -->
-                <p><label for="email">&nbsp Email:</label>
-                <span style = "margin-left : 30px"><input name="email" type="email" id="email" required placeholder="abc@abc.com" autocomplete="off" /></span></p> 
-                <!-- Profesion -->
-                <p><label for="profesion">&nbsp Profession:</label>
-                <input name="profesion" type="text" id="profesion" required placeholder="Your Work" list="profesions" autocomplete="off"/></span></p>
+				<table>
+				<tr><td><p><label for="name" > &nbsp Name:</label></td>
+                <td><span style = "margin-left : 5%"><input name="name" type="text" id="name" required placeholder="First and Last Name" autocomplete="off"  /></span></p>
+                </td></tr>
+				<!-- Email -->
+                <tr><td><p><label for="email">&nbsp Email:</label></td>
+                <td><span style = "margin-left : 5%"><input name="email" type="email" id="email" required placeholder="abc@abc.com" autocomplete="off" /></span></p> 
+                </td></tr>
+				<!-- Profesion -->
+                <tr><td><p><label for="profesion">&nbsp Profession:</label></td>
+                <td><span style = "margin-left : 5%"><input name="profesion" type="text" id="profesion" required placeholder="Your Work" list="profesions" autocomplete="off"/></span></p>
                 <datalist id="profesions">
                     <option value="Student"></option>
                     <option value="Lecturer"></option>
                     <option value="MMU staff"></option>
                     <option value="Unemployed"></option>
-                </datalist>
+                </datalist></td></tr>
                 <!-- Date of Visit -->
-                <p><label for="date-visit">&nbsp Visit Date: </label>
+                <tr><td><p><label for="date-visit">&nbsp Visit Date: </label></td>
+                <td><span style = "margin-left : 5%"><input name="date-visit" type="date" id="date-visit" required /></span></p><br></td></tr>
+				</table>
+				</div>
 				
-                <span style = "margin-left : 2px"><input name="date-visit" type="date" id="date-visit" required /></span></p><br><br>
-                <!-- Radio Button for rating --></div>
+                <!-- Radio Button for rating -->
 				<div class = "box2">
+				<br>
                 <p><label>&nbsp How do you rate the website?</label></p>
                 <span>
                     <label for="1">&nbsp Very Bad!</label><input name="rating" type="radio" value="1" id="1" required />
@@ -78,7 +85,8 @@
                 </span>
 				</div>
                 <!-- Check Box List -->
-				<div class = "box3">
+				<div class = "box2">
+				<br>
                 <p><label>&nbsp Would you describe your feedback as (tick where appropriate)</label></p>
                 <span>
                     <label for="10">&nbsp Comment</label><input name="feedback" type="checkbox" value="1" id="10" />
