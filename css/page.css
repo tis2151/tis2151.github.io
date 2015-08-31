@@ -103,16 +103,17 @@ body {
 	}
 
 .box1{
-	width:80%;
+	width:70%;
 	height:100%;
 	border:1px solid black;
+	border-radius: 5px
 	}
 	  
 .box2{
-	width:80%;
+	width:70%;
 	height:100%;
 	border:1px solid black;
-	margin-top:2px;
+	border-radius: 5px
 	}
 	
 .rcorners1 {
@@ -121,6 +122,10 @@ body {
 	
 .rcorners2 {
     border-radius: 50px 15px;
+	}
+
+.rcorners3 {
+    border-radius: 15px;
 	}
 	
 .span{
