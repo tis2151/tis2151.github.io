@@ -141,3 +141,7 @@ body {
     padding: 5px;
     text-align: left;
 	}
+	
+.img{
+	max-width: 100% !important
+}
