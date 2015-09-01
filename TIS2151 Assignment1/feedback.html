@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+    <meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="image/pagecon.png">
+    <meta charset=”utf-8”>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/page.css">
+	
+	</head>
+	
+	<body width="80%" style="margin:auto">
+	<center>
+	<a href="http://tis2151.github.io/"><img src="image/header.png" alt="header logo"></a><br>
+	
+	<div class="menu-wrap">
+    <nav class="menu">
+        <ul class="clearfix">
+            <li><a href="http://tis2151.github.io/">Home</a></li>
+            <li><a href="#">Postgraduate <span class="arrow">&#9660;</span></a>
+                <ul class="sub-menu">
+                    <li><a href="programmes.html">Programmes</a></li>
+                    <li><a href="research.html">Research Centres</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Undergraduate <span class="arrow">&#9660;</span></a>
+				<ul class="sub-menu">
+                    <li><a href="foundation.html">Subject List for Foundation Programme</a></li>
+                    <li><a href="bachelor.html">Subject List for B.CS with Specialization</a></li>
+                </ul>
+			</li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+	</div>
+	<br>
+	
+	<!--CONTENT START HERE-->
+    
+    <div class="container-feedback">
+        <p><h2>FCI WEBSITE FEEDBACK FORM</h2></p><br><br>
+        <div class="form">
+            <form method="post" action="thankyoupage.html">
+			<div class = "box1">
+			<br>
+                <!-- Name -->
+				<table>
+				<tr><td><p><label for="name" > &nbsp Name:</label></td>
+                <td><span style = "margin-left : 5%"><input name="name" type="text" id="name" required placeholder="First and Last Name" autocomplete="off"  /></span></p>
+                </td></tr>
+				<!-- Email -->
+                <tr><td><p><label for="email">&nbsp Email:</label></td>
+                <td><span style = "margin-left : 5%"><input name="email" type="email" id="email" required placeholder="abc@abc.com" autocomplete="off" /></span></p> 
+                </td></tr>
+				<!-- Profesion -->
+                <tr><td><p><label for="profesion">&nbsp Profession:</label></td>
+                <td><span style = "margin-left : 5%"><input name="profesion" type="text" id="profesion" required placeholder="Your Work" list="profesions" autocomplete="off"/></span></p>
+                <datalist id="profesions">
+                    <option value="Student"></option>
+                    <option value="Lecturer"></option>
+                    <option value="MMU staff"></option>
+                    <option value="Unemployed"></option>
+                </datalist></td></tr>
+                <!-- Date of Visit -->
+                <tr><td><p><label for="date-visit">&nbsp Visit Date: </label></td>
+                <td><span style = "margin-left : 5%"><input name="date-visit" type="date" id="date-visit" required /></span></p><br></td></tr>
+				</table>
+				</div>
+				<br>
+                <!-- Radio Button for rating -->
+				<div class = "box2">
+				<br>
+                <p><label>&nbsp How do you rate the website?</label></p>
+                <span>
+                    <label for="1">&nbsp Very Bad!</label><input name="rating" type="radio" value="1" id="1" required />
+                    <label for="2">&nbsp Bad</label><input name="rating" type="radio" value="2" id="2" required />
+                    <label for="3">&nbsp Average</label><input name="rating" type="radio" value="3" id="3" required />
+                    <label for="4">&nbsp Good</label><input name="rating" type="radio" value="4" id="4" required />
+                    <label for="5">&nbsp Very Good!</label><input name="rating" type="radio" value="5" id="5" required /><br><br>
+                </span>
+				</div>
+				<br>
+                <!-- Check Box List -->
+				<div class = "box2">
+				<br>
+                <p><label>&nbsp Would you describe your feedback as (tick where appropriate)</label></p>
+                <span>
+                    <label for="10">&nbsp Comment</label><input name="feedback" type="checkbox" value="1" id="10" />
+                    <label for="20">&nbsp Complaint</label><input name="feedback" type="checkbox" value="2" id="20" />
+                    <label for="30">&nbsp Compliment</label><input name="feedback" type="checkbox" value="3" id="30" />
+                    <label for="40">&nbsp Suggestion</label><input name="feedback" type="checkbox" value="4" id="40" /><br><br>
+                </span>
+				</div>
+                <!-- Additional Comments -->
+                <br><br><p><label for="additional-feedback">Additonal feedback</label></p>
+                <textarea name="additional-feedback" placeholder="Please write your feedback here." id="additional-feedback"  rows = "20" cols = "50" ></textarea>
+                <!-- Submit and Clear Button -->
+                <p><input type="submit" value="Submit" class="button-submit" /><input type="reset" value="Clear" class="button-reset" /></p>
+                
+            </form>
+        </div>
+    </div>
+	
+	<!--CONTENT END HERE-->
+	
+	<h3>&nbsp;</h3>
+	<table>
+	<tr><td style="text-align: center;"><img src="http://i.imgur.com/W01bvc0.png" alt="external link footer image"></td></tr>
+	<tr><td style="text-align: center;"><h5>Copyright &copy; 2015 . Redza(1102700453) | Aiman(1102700205) | Nazreen(1102703236) | Imran(1112702852)</h5></td></tr>
+	<tr><td style="text-align: center;"><a href="aboutus.html">Click Here To Find Out More About Us</a></td></tr>
+	</table>
+	
+	<h1>&nbsp;</h1>
+	</center>
+	</body>
+</html>
