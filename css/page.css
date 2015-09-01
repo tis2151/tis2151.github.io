@@ -135,10 +135,11 @@ body {
 	}
 	
 .summary{
-	outline:none;
+	outline: none;
 	}
 	
 .th, .td {
     padding: 5px;
     text-align: left;
+	outline: none;
 	}
