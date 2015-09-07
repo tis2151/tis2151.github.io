@@ -3123,21 +3123,3 @@ Copyright (c) 2014 Daniel Eden
   -webkit-animation-name: zoomOutUp;
   animation-name: zoomOutUp;
 }
-
-/*----------------Fade-----------------*/
-#fader
-{
-    height:2000px;    
-}
-
-#fader DIV
-{ 
-    margin:50px; 
-    padding:50px; 
-    background-color:lightgreen; 
-}
-
-.hideme
-{
-    opacity:0;
-}

@@ -69,6 +69,9 @@ h3 span { font-size: 68px; font-weight: light; opacity: 0.3; }
 h4 { display: block; margin: 15px; color: #696969; font-size: 17px; text-align: center; font-weight: 200; }
 h4 span { color: #696969; font-size: 32px; vertical-align: middle; font-weight: 300; }
 
+h5 { display: block; margin: 15px; color: #fff; font-size: 12px; text-align: center; font-weight: 200; }
+h5 span { color: #696969; font-size: 32px; vertical-align: middle; font-weight: 300; }
+
 p { letter-spacing: 1px; line-height: 20px; }
 
 .rcorners {
