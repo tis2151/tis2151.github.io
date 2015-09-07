@@ -36,24 +36,13 @@ animation-delay: 0.8s;
 animation-delay: 1.6s;
 }
 
-/*---make a basic box ---*/
-.box{
-width: 200px;
-height: 200px;
-position: relative;
-margin: 10px;
-float: left;
-border: 1px solid #333;
-background: #999;
-}
-
 /* INTRO AND MENU ******************************************************* */
 div.topline { background-color: #21b9b0; background-image: -moz-linear-gradient(270deg, #21b9b0 0%, #54606e 100%); background-image: -webkit-linear-gradient(270deg, #21b9b0 0%, #54606e 100%); background-image: -o-linear-gradient(270deg, #21b9b0 0%, #54606e 100%); background-image: -ms-linear-gradient(270deg, #21b9b0 0%, #54606e 100%); 
-background-image: linear-gradient(270deg, #21b9b0 0%, #54606e 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='$to', GradientType=1); height: 1px; }
+background-image: linear-gradient(270deg, #21b9b0 0%, #54606e 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='$to', GradientType=1); height: 5px; }
 
 
 /* PARALLAX INFO ******************************************************* */
-.parallax [class*="section"] { position: relative; background-attachment: fixed; background-position: top center; background-size: cover; overflow: hidden; padding: 70px 0 200px 0; }
+.parallax [class*="section"] { position: relative; background-attachment: fixed; background-position: top center; background-size: cover; overflow: hidden; }
 
 .parallax [class*="section"]:nth-child(2n) { box-shadow: 0 0 3px rgba(0, 0, 0, 0.7); z-index: 2; position: relative; }
 
@@ -68,7 +57,7 @@ background-image: linear-gradient(270deg, #21b9b0 0%, #54606e 100%); filter: pro
 /* GENERIC ******************************************************* */
 * { font-family: "Lato", sans-serif; color: #fff; }
 
-h1 { display: block; margin: 20px auto; color: #ea4f4f; font-size: 25px; text-transform: uppercase; text-align: center; font-weight: 400; }
+h1 { display: block; margin: 25px auto; color: #ea4f4f; font-size: 25px; text-transform: uppercase; text-align: center; font-weight: 400; }
 h1 span { color: #ea4f4f; font-size: 32px; vertical-align: middle; font-weight: 300; }
 
 h2 { display: block; margin: 20px auto; color: #696969; font-size: 17px; text-transform: uppercase; text-align: center; font-weight: 300; }
@@ -80,4 +69,8 @@ h3 span { font-size: 68px; font-weight: light; opacity: 0.3; }
 h4 { display: block; margin: 15px; color: #696969; font-size: 17px; text-align: center; font-weight: 200; }
 h4 span { color: #696969; font-size: 32px; vertical-align: middle; font-weight: 300; }
 
-p { letter-spacing: 1px; line-height: 30px; }
+p { letter-spacing: 1px; line-height: 50px; }
+
+.rcorners {
+    border-radius: 20px;
+	}
