@@ -72,8 +72,19 @@ h4 span { color: #696969; font-size: 32px; vertical-align: middle; font-weight: 
 h5 { display: block; padding:5px; margin: 5px; color: #fff; font-size: 15px; text-align: center; font-weight: 200; }
 h5 span { color: #696969; font-size: 32px; vertical-align: middle; font-weight: 300; }
 
+h6 { display: block; padding:5px; margin: 5px; color: #696969; font-size: 15px; text-align: center; font-weight: 200; }
+h6 span { color: #696969; font-size: 15px; font-weight: 400; }
+
 p { letter-spacing: 1px; line-height: 20px; }
 
 .rcorners {
     border-radius: 20px;
+	}
+	
+.rcorners2 {
+    border-radius: 50px 15px;
+	}
+
+.rcorners3 {
+    border-radius: 15px;
 	}
