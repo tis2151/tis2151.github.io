@@ -63,10 +63,10 @@ h1 span { color: #ea4f4f; font-size: 32px; vertical-align: middle; font-weight: 
 h2 { display: block; margin: 20px auto; color: #696969; font-size: 17px; text-transform: uppercase; text-align: center; font-weight: 300; }
 h2 span { color: #696969; font-size: 32px; vertical-align: middle; font-weight: 300; }
 
-h3 { font-size: 17px; text-transform: uppercase; }
+h3 { font-size: 17px; color: #696969; text-transform: uppercase; }
 h3 span { font-size: 68px; font-weight: light; opacity: 0.3; }
 
-h4 { display: block; margin: 15px; color: #696969; font-size: 17px; text-align: center; font-weight: 200; }
+h4 { display: block; margin: 10px; color: #696969; font-size: 17px; text-align: center; font-weight: 200; }
 h4 span { color: #696969; font-size: 32px; vertical-align: middle; font-weight: 300; }
 
 h5 { display: block; padding:5px; margin: 5px; color: #fff; font-size: 15px; text-align: center; font-weight: 200; }
