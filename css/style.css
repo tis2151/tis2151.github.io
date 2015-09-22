@@ -67,7 +67,9 @@ h3 { font-size: 17px; color: #696969; text-transform: uppercase; }
 h3 span { font-size: 17px; color: #fff; font-weight: light; text-transform: none; }
 
 h4 { display: block; margin: 10px; color: #696969; font-size: 17px; text-align: center; font-weight: 200; }
-h4 span { color: #696969; font-size: 32px; vertical-align: middle; font-weight: 300; }
+h4:hover { color:#fff; }
+h4 span { color: #696969; font-size: 17px; text-align: center; font-weight: 200; }
+h4 span:hover { color: #696969; font-size: 17px; text-align: center; font-weight: 200; }
 
 h5 { display: block; padding:5px; margin: 5px; color: #fff; font-size: 15px; text-align: center; font-weight: 200; }
 h5 span { color: #696969; font-size: 32px; vertical-align: middle; font-weight: 300; }
@@ -93,5 +95,3 @@ p { letter-spacing: 1px; line-height: 20px; }
 	}
 	
 li:hover {background-color: #21b9b0; border-radius:5px;}
-
-.rcorners:hover{width:30%; height:30%;}
